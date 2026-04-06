@@ -11,3 +11,4 @@ pytest_report.txt
 
 # Outputs
 test_cases_output.txt
+test_scenarios_output.txt

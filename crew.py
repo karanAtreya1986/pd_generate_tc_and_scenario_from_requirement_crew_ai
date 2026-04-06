@@ -65,7 +65,8 @@ scenario_task = Task(
         "Return scenarios in a clean bullet list grouped by category."
     ),
     expected_output="Structured test scenarios categorized as positive, negative, and edge cases.",
-    agent=requirements_analyst
+    agent=requirements_analyst,
+    output_file="test_scenarios_output.txt"
 )
 
 # =========================
